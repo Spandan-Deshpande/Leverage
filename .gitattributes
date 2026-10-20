@@ -1,0 +1,7 @@
+code/clash_royale_xgb_final.ubj filter=lfs diff=lfs merge=lfs -text
+Leverage.exe filter=lfs diff=lfs merge=lfs -text
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.png binary

@@ -1,0 +1,5 @@
+numpy
+pandas
+scipy
+xgboost==3.4.1
+PySide6

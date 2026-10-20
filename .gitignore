@@ -1,0 +1,44 @@
+# Generated builds and archives
+*.msi
+*.zip
+*.7z
+build/
+dist/
+*.spec
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+.aws/
+.ssh/
+.codex/
+.agents/
+.vscode/
+.idea/
+*.log
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
